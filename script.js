@@ -15,3 +15,5 @@ async function generateJoke() {
  }
 
 generateJoke();
+
+jokeBtn.addEventListener('click', generateJoke);
